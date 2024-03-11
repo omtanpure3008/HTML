@@ -1,0 +1,115 @@
+<!-- Single line comments-->
+
+<!-- 
+
+    this 
+    is 
+    multiline
+    commment
+
+ -->
+
+
+ <!-- 
+
+    1bit - 1, 0
+    1 byte - 8 bit
+    1 kb = 1024 bytes
+    1mb = 1024 kb
+    1gb = 1024mb
+    1tb = 1024gb
+
+  -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is my first webpage">
+    <title>My Webpage</title>
+</head>
+
+<body>
+    <!-- Heading tags in html -->
+    <h1>Hello World</h1>
+    <h2>Hello World</h2>
+    <h3>Hello World</h3>
+    <h4>Hello World</h4>
+    <h5>Hello World</h5>
+    <h6>Hello World</h6>
+
+    <!-- img tag -->
+    <!-- attribute -->
+
+    <img src="https://images.unsplash.com/photo-1707343848873-d6a834b5f9b9?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxNnx8fGVufDB8fHx8fA%3D%3D"
+        alt="" width="300px" height="200px">
+
+    <!-- anchor tag -->
+    <a href="https://instagram.com" target="_self">Instagram</a>
+
+    <p>Lorem ipsum dolor sit amet consectetur <i>adipisicing</i> elit. <em>Ratione</em> reiciendis officiis magnam
+        labore optio voluptates pariatur, tempore doloremque. Dignissimos sed vel voluptatibus cupiditate consectetur
+        <b>Ratione</b> <strong>harum</strong> quae? Enim, aspernatur accusamus?</p>
+
+
+    <p>Lorem ipsum, dolor sit amet <ins>consectetur</ins> adipisicing elit. Ex veniam consectetur nostrum possimus
+        expedita <mark> repellat</mark> quis iure ad repellendus. Odio maxime ipsam iusto voluptatum et voluptate enim
+        sint nulla, magnam dolorem numquam. Voluptate ad dolorem aliquid pariatur incidunt nobis dignissimos, veniam
+        temporibus? Molestiae amet adipisci ipsum. Tenetur nihil tempore enim.</p>
+
+    <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, ut."</p>
+    <p><q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, repellendus?</q></p>
+
+    <p>2 <sup>2</sup> = 4</p>
+
+    <p>H<sub>2</sub>o</p>
+    <p>CO<sub>2</sub></p>
+
+
+    <pre>
+        <code>
+            // Search if the given element is present in the array or not if present print the index.
+
+            #include &lt;iostream>&gt;
+        using namespace std;
+
+        void arr(int n, int element) {
+            int arr[100];
+
+            cout << "Enter the elements in array : \n";
+
+            for (int i = 0; i < n; i++) {
+                cin >> arr[i];
+            }
+
+   for(int i =0; i < n; i++) {
+        if(arr[i] == element) {
+            cout << "The index of element is : " << i << endl;
+            break;
+        }
+    }
+    cout << "Element not found...!!!";
+}
+
+int main() {
+
+    int num, element;
+
+    cout << "Enter the length of array : ";
+    cin >> num;
+
+    cout << "Enter element to find : ";
+    cin >> element;
+
+    arr(num, element);
+
+    return 0;
+}
+        </code>
+    </pre>
+</body>
+
+</html>
